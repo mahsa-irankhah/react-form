@@ -1,9 +1,11 @@
 export const validate = (data, type) => {
   const errors = {};
+  
 
   if (!data.email.trim()) {
     errors.email = "email is required";
-  } else if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(data.email)) {
+  } //eslint-disable-next-line
+  else if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(data.email)) {
     errors.email = " email is invalid";
   }
 
