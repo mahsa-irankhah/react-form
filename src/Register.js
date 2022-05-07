@@ -135,7 +135,10 @@ const Register = () => {
           </button>
         </div>
       </form>
-      <p><a href="">open-source</a> coded by Mahsa Irankhah</p>
+      <p>
+        <a href="https://github.com/mahsa-irankhah/react-form">open-source</a>{" "}
+        coded by Mahsa Irankhah
+      </p>
       <ToastContainer />
     </div>
   );
