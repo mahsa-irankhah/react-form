@@ -135,6 +135,7 @@ const Register = () => {
           </button>
         </div>
       </form>
+      <p><a href="">open-source</a> coded by Mahsa Irankhah</p>
       <ToastContainer />
     </div>
   );
