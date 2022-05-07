@@ -53,7 +53,10 @@ const Register = () => {
   };
 
   return (
-    <div className="w-25 p-5 m-auto mt-5 border border-secondary rounded">
+    <div
+      className="p-5 m-auto mt-5 border border-secondary rounded"
+      style={{ maxWidth: "320px" }}
+    >
       <form onSubmit={submitHandler} className="center">
         <h1 className="text-primary mb-4 fw-bold">Sign Up</h1>
         <div className="mb-3">
